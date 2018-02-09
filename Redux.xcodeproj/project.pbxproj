@@ -390,8 +390,7 @@
 			children = (
 				9953E3EB202C5C7400DCB94E /* RoutingReducer.swift */,
 			);
-			name = Reducers;
-			path = "New Group";
+			path = Reducers;
 			sourceTree = "<group>";
 		};
 		9953E412202C761200DCB94E /* Actions */ = {
