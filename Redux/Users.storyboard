@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Users View Controller-->
+        <scene sceneID="1BM-KE-eYd">
+            <objects>
+                <tableViewController storyboardIdentifier="UsersViewController" id="bFB-NN-GaF" customClass="UsersViewController" customModule="VIPER" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="g30-GE-F9l">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <outlet property="dataSource" destination="bFB-NN-GaF" id="TsF-T6-x3D"/>
+                            <outlet property="delegate" destination="bFB-NN-GaF" id="Jba-XI-zQe"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="fvl-Bc-Q3P"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QfH-ni-lzl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-261" y="211"/>
+        </scene>
+        <!--User Details View Controller-->
+        <scene sceneID="z0l-EK-faO">
+            <objects>
+                <viewController storyboardIdentifier="UserViewController" id="gK2-Tc-akm" customClass="UserDetailsViewController" customModule="VIPER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PKg-Nr-WLW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="U7x-e5-LSj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJe-Di-gBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="412" y="211"/>
+        </scene>
+        <!--User Location View Controller-->
+        <scene sceneID="TxD-Ka-XZE">
+            <objects>
+                <viewController storyboardIdentifier="UserLocationViewController" id="AFZ-vV-KG5" customClass="UserLocationViewController" customModule="VIPER" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gA2-Bo-MRk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zQG-Sc-jw6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9yJ-11-Nbh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ja-BU-qEz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1097" y="211"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,29 @@
+PODS:
+  - Action (3.5.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - ReSwift (4.0.1)
+  - ReSwiftRouter (0.6.0):
+    - ReSwift (~> 4.0.0)
+  - RxCocoa (4.1.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.1)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Action
+  - ReSwift
+  - ReSwiftRouter
+  - SnapKit
+
+SPEC CHECKSUMS:
+  Action: d60087ebce41b969d1afdad01e2fa1372a82f26e
+  ReSwift: f4012c613e13da7398827fe5aebdb938eaed40a3
+  ReSwiftRouter: 81f41b37a5dd1c88e1d3d10a660ff2dcc939ba7c
+  RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
+  RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 26b67b10ffbf110130fd2e9c2d672bedc91bfb83
+
+COCOAPODS: 1.4.0
